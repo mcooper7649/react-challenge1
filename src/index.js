@@ -11,7 +11,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const YOURNAME = "Michael Cooper";
-const CURRENTYEAR = 2020;
+const currentDate = new Date();
+const CURRENTYEAR = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
